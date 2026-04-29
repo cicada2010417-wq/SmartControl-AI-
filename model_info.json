@@ -1,0 +1,23 @@
+{
+  "model_type": "RandomForestRegressor",
+  "n_estimators": 100,
+  "r2_score": 0.8161,
+  "features": [
+    "facility_type",
+    "floor_area",
+    "num_employees",
+    "operating_hours",
+    "avg_temperature",
+    "month",
+    "monthly_consumption"
+  ],
+  "feature_descriptions": {
+    "facility_type": "0=Hotel, 1=Restaurant",
+    "floor_area": "Floor area in m2",
+    "num_employees": "Number of employees",
+    "operating_hours": "Operating hours per day",
+    "avg_temperature": "Average temperature in Celsius",
+    "month": "Month (1-12)",
+    "monthly_consumption": "Monthly energy consumption in kWh"
+  }
+}
